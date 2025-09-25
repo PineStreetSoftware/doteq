@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+recursive-include doteq *.py
+recursive-include tests/fixtures *
+global-exclude *.pyc
+

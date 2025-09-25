@@ -1,0 +1,29 @@
+/.venv
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+venv/
+.env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+
+# Test & coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+
+# Editors/OS
+.idea/
+.vscode/
+.DS_Store
