@@ -17,7 +17,8 @@ Keep `.env` files synchronized with `.env.example` across environments.
 ## Installation
 
 ```bash
-pip install doteq
+pip install git+https://github.com/PineStreetSoftware/doteq.git@main
+
 ```
 
 ## Quick Start
