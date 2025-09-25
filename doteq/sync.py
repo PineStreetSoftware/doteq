@@ -160,6 +160,9 @@ class DoteqSync:
             # write original content as-is
             for line in self.env_lines:
                 tmp.write(line.raw)
+            # ensure there is a trailing newline before appending new keys
+            if self.env_lines and not self.env_lines[-1].raw.endswith("\n"):
+                tmp.write("\n")
             # append new keys
             for rendered in self._build_appended_lines():
                 tmp.write(rendered)
