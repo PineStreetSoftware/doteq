@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="doteq",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="James Jewhurst / Marcel Melo (idea)",
+    author_email="",
     description="Keep .env files in sync with .env.example",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/doteq",
+    url="https://github.com/PineStreetSoftware/doteq",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
